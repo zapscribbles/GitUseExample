@@ -25,11 +25,22 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="OcA-RC-KtS"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This has just appearred in new_branch!" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHv-jD-jU7">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="2R9-BV-iq1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Hq0-UA-Yes" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="jtJ-Fk-8cv"/>
+                            <constraint firstItem="LHv-jD-jU7" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="0pI-qN-hSK"/>
+                            <constraint firstItem="LHv-jD-jU7" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="6Jo-3z-qJ5"/>
+                            <constraint firstItem="LHv-jD-jU7" firstAttribute="top" secondItem="3" secondAttribute="top" constant="136" id="NHd-Xl-shC"/>
                             <constraint firstItem="Hq0-UA-Yes" firstAttribute="top" secondItem="3" secondAttribute="top" constant="252" id="tLO-CP-kY5"/>
+                            <constraint firstItem="LHv-jD-jU7" firstAttribute="centerX" secondItem="Hq0-UA-Yes" secondAttribute="centerX" type="default" id="xZs-cF-nCn"/>
                         </constraints>
                     </view>
                 </viewController>
