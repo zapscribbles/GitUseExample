@@ -18,6 +18,7 @@
 		CDCBD81B16637773006408F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDCBD81A16637773006408F4 /* Default-568h@2x.png */; };
 		CDCBD81E16637773006408F4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCBD81C16637773006408F4 /* MainStoryboard.storyboard */; };
 		CDCBD82116637773006408F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCBD82016637773006408F4 /* ViewController.m */; };
+		CDCBD82916637BE6006408F4 /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCBD82816637BE6006408F4 /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		CDCBD81D16637773006408F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CDCBD81F16637773006408F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CDCBD82016637773006408F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDCBD82716637BE6006408F4 /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		CDCBD82816637BE6006408F4 /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		CDCBD80A16637773006408F4 /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
+				CDCBD82716637BE6006408F4 /* MapForItinerary.h */,
+				CDCBD82816637BE6006408F4 /* MapForItinerary.m */,
 				CDCBD81316637773006408F4 /* AppDelegate.h */,
 				CDCBD81416637773006408F4 /* AppDelegate.m */,
 				CDCBD81C16637773006408F4 /* MainStoryboard.storyboard */,
@@ -176,6 +181,7 @@
 				CDCBD81116637773006408F4 /* main.m in Sources */,
 				CDCBD81516637773006408F4 /* AppDelegate.m in Sources */,
 				CDCBD82116637773006408F4 /* ViewController.m in Sources */,
+				CDCBD82916637BE6006408F4 /* MapForItinerary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
